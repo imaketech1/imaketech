@@ -39,7 +39,6 @@ const projects = [
     title: "Time Rush",
     description: "Cool pomodoro timer",
     image: "/images/timerush.png",
-    href: "https://timerush.vercel.app/",
     githublink: "https://github.com/imaketech1/timerush"
   },
   {
@@ -61,12 +60,18 @@ export default function Projects() {
   const carouselProjectItem = carouselProject[current]
 
   return (
-    <section id="projects" className={`${barlow.className} py-16 w-full px-4 sm:px-8 bg-white`}>
+    <section id="projects" className={`${barlow.className} py-16 w-full px-4 sm:px-8 
+    bg-white/40        // Translucent white background (10% opacity)
+    rounded-3xl        // Large rounded corners
+    border-2           // Border thickness
+    border-red-500     // Red border color
+    shadow-lg
+    `}>
   <div className="max-w-5xl mx-auto flex flex-col gap-8">
     {/* <CarouselDisplay/> */}
     <h2 className="text-5xl font-bold text-center">Projects</h2>
     <div className="w-full max-w-4xl mx-auto relative transition-transform duration-300 hover:scale-105 shadow-md" >
-        <div className="bg-white dark:bg-neutral-900 rounded-lg overflow-hidden shadow-lg p-4 flex flex-col md:flex-row gap-4">
+        <div className="bg-white/60  dark:bg-neutral-900 rounded-lg overflow-hidden shadow-lg p-4 flex flex-col md:flex-row gap-4">
         <Image
           src={carouselProjectItem.image}
           alt={carouselProjectItem.title}

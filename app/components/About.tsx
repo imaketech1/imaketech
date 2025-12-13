@@ -4,25 +4,33 @@ import * as React from "react"
 import { LucideLaptop2, Mail, Github, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import  Link  from "next/link"
-import { Cascadia_Code } from 'next/font/google'
+import { Barlow } from 'next/font/google'
 
-
-const cascadia = Cascadia_Code({
+const barlow = Barlow({
   subsets: ['latin'],
-  weight: ['400', '700'], // choose weights
+  weight: ['400', '600'], // choose weights
 })
 
 export default function About() {
   return (
-    <section id="about" className={`${cascadia.className} py-16 w-full px-4 sm:px-8 bg-white`}>
+    <section id="about" className={`${barlow.className} py-16 w-full px-4 sm:px-8 
+    bg-white/30         
+    rounded-3xl           
+    border-2            
+    border-red-500      
+    shadow-lg
+    `}>
+                  <h2 className="text-4xl font-bold mb-18"> welcome to my world of tech~</h2>
+    
       <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center gap-8">
+       
         <div className="text-primary">
           <LucideLaptop2 size={80} className="text-blue-600" />
           
         </div>
 
         <div className="text-center sm:text-left">
-            <h2 className="text-4xl font-bold mb-8">Hi— welcome to my world of tech~</h2>
+            <h2 className="text-4xl font-bold mb-8">Hi,</h2>
 <p className="text-gray-700 text-justify w-full leading-relaxed max-w-l">
   I’m a fullstack developer with a strong backend foundation— focused on building <strong>scalable microservices</strong> that power real-world applications. <br></br>My focus: designing systems that scale, ship fast, and are maintainable over time.
   <br /><br />
@@ -34,7 +42,6 @@ export default function About() {
         </div>
         
       </div>
-     
        <div className="flex flex-col items-end gap-4">
   <div className="flex gap-6">
     
