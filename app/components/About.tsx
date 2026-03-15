@@ -8,7 +8,7 @@ import { Barlow } from 'next/font/google'
 
 const barlow = Barlow({
   subsets: ['latin'],
-  weight: ['400', '600'], // choose weights
+  weight: ['400', '600'], 
 })
 
 export default function About() {

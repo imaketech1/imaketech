@@ -1,4 +1,3 @@
-// components/Highlights.ts
 export const highlights = [
   {
     title: "AI Assistant",

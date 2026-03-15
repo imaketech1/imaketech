@@ -62,9 +62,9 @@ export default function Projects() {
   return (
     <section id="projects" className={`${barlow.className} py-16 w-full px-4 sm:px-8 
         bg-section/80 backdrop-blur-md         
-    rounded-3xl        // Large rounded corners
-    border-2           // Border thickness
-    border-red-500     // Red border color
+    rounded-3xl       
+    border-2          
+    border-red-500     
     shadow-lg
     `}>
   <div className="max-w-5xl mx-auto flex flex-col gap-8">

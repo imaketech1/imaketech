@@ -10,7 +10,7 @@ import ThemeToggle from "./components/ThemeToggle";
 
 const barlow = Barlow({
   subsets: ['latin'],
-  weight: ['400', '600'], // choose weights
+  weight: ['400', '600'], 
 })
 export default function Home() {
   return (

@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils"
 type BlogCardProps = {
   title: string
   description: string
-  image?: string // no longer used, but kept for compatibility
+  image?: string 
   href?: string
 }
 
@@ -19,7 +19,6 @@ export function BlogCard({ title, description, href }: BlogCardProps) {
         "group w-full max-w-lg overflow-hidden transition-transform duration-300 hover:scale-[1.02] shadow-md flex flex-col gap-4 p-4"
       )}
     >
-      {/* Icon instead of image */}
       <div className="flex justify-center items-center h-20 w-20 rounded-full bg-blue-100 text-blue-600 self-start">
         <Pen size={32} />
       </div>

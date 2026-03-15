@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "imaketech-4fcca"
-  }
+    "default": "i-make-tech"
+  },
+  "targets": {},
+  "etags": {}
 }
