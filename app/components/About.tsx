@@ -14,7 +14,7 @@ const barlow = Barlow({
 export default function About() {
   return (
     <section id="about" className={`${barlow.className} py-16 w-full px-4 sm:px-8 
-    bg-white/30         
+    bg-section/80 backdrop-blur-md         
     rounded-3xl           
     border-2            
     border-red-500      
@@ -31,7 +31,7 @@ export default function About() {
 
         <div className="text-center sm:text-left">
             <h2 className="text-4xl font-bold mb-8">Hi,</h2>
-<p className="text-gray-700 text-justify w-full leading-relaxed max-w-l">
+<p className="text-700 text-justify w-full leading-relaxed max-w-l">
   I’m a fullstack developer with a strong backend foundation— focused on building <strong>scalable microservices</strong> that power real-world applications. <br></br>My focus: designing systems that scale, ship fast, and are maintainable over time.
   <br /><br />
   I’ve built and shipped products using a scalable microservices architecture with Spring Boot, Docker, and Kubernetes— enabling fast deployments and reliable service communication. <br></br>

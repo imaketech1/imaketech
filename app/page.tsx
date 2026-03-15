@@ -6,6 +6,7 @@ import SectionNav from "./components/SectionNav";
 import Blog from "./components/Blog";
 import { Barlow } from 'next/font/google'
 import { Lilita_One } from "next/font/google";
+import ThemeToggle from "./components/ThemeToggle";
 
 const barlow = Barlow({
   subsets: ['latin'],
@@ -15,6 +16,9 @@ export default function Home() {
   return (
     <div>
       <div id="top" />
+      <div className="flex justify-end p-4">
+      <ThemeToggle />
+    </div>
   <SectionNav />
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <div>

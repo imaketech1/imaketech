@@ -61,7 +61,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className={`${barlow.className} py-16 w-full px-4 sm:px-8 
-    bg-white/40        // Translucent white background (10% opacity)
+        bg-section/80 backdrop-blur-md         
     rounded-3xl        // Large rounded corners
     border-2           // Border thickness
     border-red-500     // Red border color

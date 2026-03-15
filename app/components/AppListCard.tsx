@@ -18,7 +18,7 @@ export function AppListCard({ title, description, image, href, githublink }: App
   return (
     <Card
       className={cn(
-        "group w-full bg-white/50 max-w-lg overflow-hidden transition-transform duration-300 hover:scale-105 shadow-md"
+        "group w-full     bg-section/20 bg-white/10 backdrop-blur-md   max-w-lg overflow-hidden transition-transform duration-300 hover:scale-105 shadow-md"
       )}
     >
       <div className="relative w-full h-48">

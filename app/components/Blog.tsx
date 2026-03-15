@@ -10,7 +10,7 @@ const barlow = Barlow({
 export default function Blog() {
   return (
     <section id="blog" className="w-full py-16 px-4 sm:px-8 
-    bg-white/20        
+    bg-section/80 backdrop-blur-md         
     rounded-3xl        
     border-2           
     border-red-500     
