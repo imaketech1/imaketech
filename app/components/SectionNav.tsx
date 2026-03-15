@@ -56,15 +56,15 @@ export default function SectionNav() {
       ))}
 
       {/* Scroll to top */}
-      <ScrollLink
-        to="top"
-        smooth={true}
-        duration={500}
-        offset={-50}
-        className="mt-8 p-2 rounded-full bg-gray-100 hover:bg-gray-300 shadow-md cursor-pointer"
-      >
-        <ChevronUp className="w-4 h-4" />
-      </ScrollLink>
+     <ScrollLink
+  to="top"
+  smooth={true}
+  duration={500}
+  offset={-50}
+  className="mt-8 p-2 rounded-full bg-section hover:bg-accent text-foreground shadow-md border border-border cursor-pointer transition"
+>
+  <ChevronUp className="w-4 h-4" />
+</ScrollLink>
     </div>
   );
 }

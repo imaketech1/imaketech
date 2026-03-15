@@ -65,7 +65,7 @@ export default function Home() {
 
       </main>
       <footer className="row-start-3 flex gap-[14px] flex-wrap items-center justify-center">
-       <center>Made with love
+       <center>Made with &#10084;&#65039; by imaketech
        <br></br>
        All rights reserved © imaketech</center>
       </footer>
