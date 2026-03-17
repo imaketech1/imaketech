@@ -60,7 +60,7 @@ export default function Home() {
       <section id="about" > <About/></section>
 <section id="projects" className="min-h-screen">      <Projects/>
 </section>
-<section id="blog" className="min-h-screen">      <Blog/>
+<section id="blog" >      <Blog/>
 </section>
 
       </main>
