@@ -16,7 +16,7 @@ const carouselProject=[
     title: "Fav Store",
     description: "favstore is a microservices-based e-commerce platform designed to demonstrate scalable architecture, service independence, and asynchronous communication using modern backend technologies. The system is decomposed into independently deployable services — each built with different technologies and databases, reflecting real-world system design patterns. It supports product browsing, ordering, authentication, and email notifications.",
     image: "/images/favstore-logo.png",
-    //href: "https://",
+    href: "https://",
     github:"https://github.com/imaketech1/favstore"
   }
 ]
